@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{{JUDUL}}</title>
+<meta name="description" content="{{DESKRIPSI}}">
+<link rel="canonical" href="{{PAGES_URL}}">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="theme-color" content="#ffc107">
+
+<!-- Pratinjau tautan di WhatsApp, Telegram, Facebook: judul + gambar stiker + deskripsi -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{JUDUL}}">
+<meta property="og:locale" content="id_ID">
+<meta property="og:title" content="{{JUDUL}}">
+<meta property="og:description" content="{{DESKRIPSI}}">
+<meta property="og:url" content="{{PAGES_URL}}">
+<meta property="og:image" content="{{PAGES_URL}}og-image.jpg">
+<meta property="og:image:secure_url" content="{{PAGES_URL}}og-image.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Logo {{JUDUL}}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{JUDUL}}">
+<meta name="twitter:description" content="{{DESKRIPSI}}">
+<meta name="twitter:image" content="{{PAGES_URL}}og-image.jpg">
+
+<style>
+html,body{margin:0;height:100%;background:linear-gradient(180deg,#fff8d6,#ffe58a)}
+.load{position:fixed;top:0;left:0;right:0;bottom:0;display:grid;place-items:center;text-align:center;font:600 18px system-ui,sans-serif;color:#6b4a00}
+.load img{width:min(46vw,240px);height:auto;filter:drop-shadow(0 6px 10px rgba(0,0,0,.25))}
+iframe{position:fixed;top:0;left:0;width:100%;height:100%;border:0;background:transparent}
+</style>
+</head>
+<body>
+<div class="load"><div><img src="logo-transparan.png" alt="{{JUDUL}}"><p>Memuat aplikasi...</p></div></div>
+<iframe src="{{EXEC_URL}}" title="{{JUDUL}}" allow="autoplay; clipboard-write; web-share; fullscreen" allowfullscreen></iframe>
+<noscript><p style="text-align:center;padding:30px"><a href="{{EXEC_URL}}">Buka {{JUDUL}}</a></p></noscript>
+</body>
+</html>

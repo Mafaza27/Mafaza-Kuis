@@ -1,0 +1,36 @@
+MAFAZA KUIS - PAKET UNGGAH KE GITHUB
+=====================================
+
+APA YANG DILAKUKAN FILE INI
+  jalankan-github.bat mengunggah aplikasi ke github.com secara otomatis dan membuat
+  halaman GitHub Pages. Halaman itu membuat tautan di WhatsApp tampil lengkap:
+  judul, stiker logo Mafaza Kuis, dan deskripsi singkat game.
+
+YANG DIBUTUHKAN
+  - Komputer Windows 10 atau 11 dengan internet
+  - Akun GitHub (daftar gratis di github.com)
+  - Alamat aplikasi Apps Script Anda yang berakhiran /exec
+
+CARA PAKAI
+  1. EKSTRAK dulu file zip ini (klik kanan > Extract All). Jangan dijalankan dari dalam zip.
+  2. Klik dua kali  jalankan-github.bat
+  3. Jika Git atau GitHub CLI belum ada, file ini memasangnya otomatis. Setelah selesai,
+     tutup jendela dan jalankan lagi.
+  4. Login GitHub: browser terbuka, masukkan kode yang tampil di jendela hitam.
+  5. Isi nama repository (Enter = mafaza-kuis) dan tempel alamat /exec.
+  6. Tekan Y. Tunggu sampai muncul tulisan SELESAI. Alamat web akan terbuka otomatis.
+
+SETELAH SELESAI
+  - Bagikan alamat GitHub Pages (https://AKUN.github.io/REPO/) di WhatsApp.
+  - Di aplikasi: masuk admin > Pengaturan > isi Alamat halaman utama dengan alamat itu.
+  - WhatsApp menyimpan pratinjau lama. Jika tampil salah, tambahkan ?v=2 di akhir alamat.
+
+MENGUBAH JUDUL / DESKRIPSI
+  Edit teks-judul.txt dan teks-deskripsi.txt dengan Notepad, lalu jalankan
+  jalankan-github.bat lagi. Perubahan kode aplikasi di folder apps-script ikut terunggah.
+
+CATATAN
+  - Repository dibuat PUBLIK (diperlukan agar GitHub Pages gratis). Isinya tidak memuat
+    kata sandi. Jangan menaruh data pribadi di folder ini.
+  - Aplikasi sebenarnya tetap berjalan di Google Apps Script. GitHub menyimpan salinan kode
+    dan menampilkan halaman pratinjau.
